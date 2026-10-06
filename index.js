@@ -37,3 +37,8 @@ app.get('/', (req, res, next) => {
         });
 })  
 
+// Jalankan Web Server Express
+app.listen(port, () => {
+    console.log(`App is running on port ${port}.`);
+})
+//
